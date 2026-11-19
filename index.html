@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lunexa — Topic-Based Audio &amp; Video Conversation Platform</title>
+  <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #0f172a; background: #f8fafc; line-height: 1.65; }
+a { color: #2563eb; text-decoration: none; }
+header { background: linear-gradient(135deg, #1e3a8a, #334a8a); color: #fff; padding: 16px 24px; position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+.nav { max-width: 1060px; margin: auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.brand { font-size: 22px; font-weight: 800; letter-spacing: 0.4px; color: #fff; }
+.nav-links { display: flex; gap: 18px; flex-wrap: wrap; }
+.nav-links a { color: #e2e8f0; font-weight: 600; font-size: 14px; }
+.nav-links a:hover { color: #fff; }
+.hero { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); color: #fff; padding: 64px 24px; text-align: center; }
+.hero h1 { font-size: 38px; font-weight: 800; margin-bottom: 14px; }
+.hero p { max-width: 680px; margin: 0 auto 24px; font-size: 17px; color: #e0e7ff; }
+.btn { display: inline-block; background: #fff; color: #1e3a8a; font-weight: 700; padding: 12px 28px; border-radius: 999px; font-size: 15px; }
+.container { max-width: 1060px; margin: 0 auto; padding: 48px 24px; }
+.section-title { font-size: 26px; font-weight: 800; color: #1e3a8a; margin-bottom: 16px; text-align: center; }
+.section-sub { text-align: center; color: #475569; max-width: 700px; margin: 0 auto 32px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+.card { background: #fff; border-radius: 16px; padding: 22px; border: 1px solid #e2e8f0; box-shadow: 0 4px 12px rgba(15,23,42,0.04); }
+.card h3 { font-size: 18px; color: #1e3a8a; margin-bottom: 8px; }
+.price { font-size: 26px; font-weight: 800; color: #0f172a; margin: 8px 0; }
+.badge { display: inline-block; background: #fef3c7; color: #92400e; font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 999px; margin-bottom: 8px; }
+.contact-box { background: #fff; border-radius: 16px; padding: 28px; border: 1px solid #e2e8f0; max-width: 680px; margin: 0 auto; }
+.contact-box p { margin-bottom: 10px; color: #334155; }
+footer { background: #0f172a; color: #cbd5e1; padding: 32px 24px; text-align: center; margin-top: 40px; }
+.footer-links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 14px; }
+.footer-links a { color: #93c5fd; font-size: 14px; font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a href="index.html" class="brand">Lunexa</a>
+    <nav class="nav-links">
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#plans">Talktime Plans</a>
+      <a href="index.html#contact">Contact Us</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+      <a href="refund-policy.html">Refund Policy</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Connect &amp; Converse on Lunexa</h1>
+  <p>Lunexa is a safe, moderated 1-on-1 topic-based audio and video conversation mobile application designed for friendly discussions, language practice, and positive social engagement.</p>
+  <a href="#plans" class="btn">View Talktime Plans</a>
+</section>
+
+<section id="about" class="container">
+  <h2 class="section-title">About Lunexa</h2>
+  <p class="section-sub">Lunexa provides a structured digital communication platform where verified users can connect with approved hosts for real-time voice and video conversations across topics like hobbies, lifestyle, movies, music, and daily motivation.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Verified Hosts</h3>
+      <p>Every host profile undergoes verification and moderation to ensure respectful, topic-based conversations.</p>
+    </div>
+    <div class="card">
+      <h3>HD Audio &amp; Video</h3>
+      <p>Low-latency real-time voice and video calling powered by secure peer-to-peer communication.</p>
+    </div>
+    <div class="card">
+      <h3>Transparent Pricing</h3>
+      <p>Pay only for the talktime you use with clear per-minute rates displayed upfront before every call.</p>
+    </div>
+  </div>
+</section>
+
+<section id="plans" class="container" style="padding-top: 10px;">
+  <h2 class="section-title">Talktime Recharge Plans (INR)</h2>
+  <p class="section-sub">Users can purchase prepaid talktime credits inside the Lunexa Android application using UPI, Cards, or NetBanking.</p>
+  <div class="grid">
+    <div class="card">
+      <span class="badge">Starter Pack</span>
+      <h3>Basic Talktime</h3>
+      <div class="price">₹30</div>
+      <p>₹30 Wallet Talktime Credit. Instant activation.</p>
+    </div>
+    <div class="card">
+      <span class="badge">10% Extra</span>
+      <h3>Bonanza ₹99</h3>
+      <div class="price">₹99</div>
+      <p>Get ₹108 Talktime Credit (10% Extra Bonus).</p>
+    </div>
+    <div class="card">
+      <span class="badge">10% Extra</span>
+      <h3>Bonanza ₹149</h3>
+      <div class="price">₹149</div>
+      <p>Get ₹163 Talktime Credit (10% Extra Bonus).</p>
+    </div>
+    <div class="card">
+      <span class="badge">Best Value</span>
+      <h3>Bonanza ₹200</h3>
+      <div class="price">₹200</div>
+      <p>Get ₹224 Talktime Credit (10% Extra Bonus).</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h2 class="section-title">Contact Us</h2>
+  <div class="contact-box">
+    <p><strong>Brand / App Name:</strong> Lunexa</p>
+    <p><strong>Support Email:</strong> gulshan7018kumar@gmail.com</p>
+    <p><strong>Customer Care / WhatsApp:</strong> +91-7667473591</p>
+    <p><strong>Operating Address:</strong> Jaipur, Rajasthan, India</p>
+    <p><strong>Support Hours:</strong> Monday – Saturday, 10:00 AM to 7:00 PM IST</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="index.html#about">About Us</a>
+    <a href="index.html#contact">Contact Us</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms.html">Terms &amp; Conditions</a>
+    <a href="refund-policy.html">Cancellation &amp; Refund Policy</a>
+  </div>
+  <p>&copy; 2026 Lunexa. All rights reserved.</p>
+</footer>
+</body>
+</html>
